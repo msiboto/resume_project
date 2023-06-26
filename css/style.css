@@ -1,0 +1,12 @@
+body{
+    background-color: darkkhaki;
+    border: 10px solid rgb(0, 0, 0);
+    padding: 30px;
+    font-family: cursive;}
+h1{
+    color: darkred;}
+h2{
+    color: darkred;
+    text-decoration: underline;}
+h3{
+    color: darkgreen;}
