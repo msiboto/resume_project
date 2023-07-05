@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-witch, initial-scale-1.0">
+        <title>formsubmit</title>
+    </head>
+    <body>
+        <h1>Registration Form</h1>
+        <p><label for="user_id">User id:</label>
+            <input type="text" min=5 max=12 id="user_id" name="user_id" required></p>
+        <p><label for="Password">Password:</label>
+            <input type="text" min=7 max=12 id="password" name="user_password" required></p>
+        <p><label for="name">Name:</label>
+            <input type="text" id="name" name="name" required></p>
+        <p><label for="address">Address</label>
+            <input id="address" name="user_name" required></p>
+        <p><label for="country">Country:</label>
+            <select name="Country">
+            <form action="#" method="get" required>
+            <option value="red">South Africa</option>
+            <option value="yellow">Zambia</option>
+            <option value="blue">Tunisia</option>
+            <option value="green">Ghana</option>
+            <option value="orange">India</option>
+            <option value="purple">China</option>
+            </select></p>
+        <p><label for="zipcode">ZIP Code:</label>
+            <input type="number" id="zipcode" name="zipcode" required></p>
+        <p><label for="mail">Email:</label>
+            <input type="mail" id="mail" name="user_mail" required></p>
+        <p><label for="sex">Sex: </label>
+            <input type="radio" name="rating" value="Male">
+            <label for="rating">Male</label>
+            <input type="radio" name="rating" value="Female">
+            <label for="rating">Female</label></p>
+        <p><label for="About">About:</label>
+            <textarea name="about" cols="50" rows="7"></textarea>
+            <p><input type="submit" name="submit"></p>       
+
+    </body>
+
+    
