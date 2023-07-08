@@ -1,8 +1,6 @@
 body{
     background-color: rgb(56, 150, 226);
-    border-color: darkred;
-    border-style: solid;
-    border-width: 5px;
+    text size: 16px;
     padding: 80px;
     font-family: cursive;
     
@@ -15,8 +13,7 @@ header{
     background-color: #ccc;
     padding: 40px;   
     text-align: center;
-    
-    
+        
 }
 h1{
     color: darkred;}
@@ -45,11 +42,11 @@ h3{
 }
 
 @media only screen and (min-width: 600px) 
-    {body { background-color: rgb(56, 150, 226); }}
+    {body { background-color: rgb(56, 150, 226); } }
       
 @media only screen and (min-width: 768px) 
     {body { background-color: rgb(138, 212, 53); }} 
-
+    
 @media only screen and (min-width: 992px) 
-    {body { background-color: rgba(255, 255, 255, 0.437); } } 
+    {body { background-color: rgba(246, 249, 75, 0.437); } } 
       
